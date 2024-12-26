@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="design.css">
+  
+  
+  <title>BCC Event Calendar</title>
+  
+  </head>
+
+  <body style="
+  background-color: lightgrey;
+  
+  
+  ">
+  
+  <div style="
+  display: grid;
+  background: skyblue;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  ">
+    
+    <header style="
+    display: grid;
+    grid-template-columns: 250px 55px 55px;
+    margin: 0;
+    ">
+      
+  <div>
+  <a><img src="menus.png" alt="sidebar"style="width:42px;height:42px;"></a> </div>
+  
+  <div>
+  <a onclick="window.location.href = 'admin.html';"><img src="admin.png" alt="admin"style="width:42px;height:42px;"></a> 
+  </div>
+  
+  <div>
+  <a href="https://www.facebook.com/baacommunitycollege"><img class="bcc" src="bcc logo.png" alt="BCC"style="width:42px;height:42px;"></a>
+  </div>
+  
+    </header>
+  
+  
+  <main style="
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  ">
+    
+  <h1 class="event-title">BCC LIST OF EVENTS</h1>
+  
+  <br>
+  <button class="event1" onclick="window.location.href = 'event1.html';"> Valentines Day & SAS Day</button>
+  <p class="feb">February 14</p>
+  <button class="event2" onclick="window.location.href = 'event2.html';">Foundation Anniversary</button>
+  <p class="jul">July 17</p>
+  <button class="event3" onclick="window.location.href = 'event3.html';">BEED Day</button>
+    <p class="sep">September 27</p>
+  <button class="event4" onclick="window.location.href = 'event4.html';">Teachers Day</button>
+    <p class="oct">October 7</p>
+  <button class="event5" onclick="window.location.href = 'event5.html';">Induction & Acquaintance Ball</button>
+    <p class="octo">October 27</p>
+  <button class="event6" onclick="window.location.href = 'event6.html';">Entrance Exam Schedules</button>
+  <br>
+  <button class="event7" onclick="window.location.href = 'event7.html';">Enrollment Schedules</button>
+  <br>
+  <button class="event8" onclick="window.location.href = 'event8.html';">Starts of Classes</button>
+    
+   <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAgkIJCSe1WKrRqSAnHlBOyr4GIu-MgMUk",
+    authDomain: "bcc-event-calendar.firebaseapp.com",
+    projectId: "bcc-event-calendar",
+    storageBucket: "bcc-event-calendar.firebasestorage.app",
+    messagingSenderId: "460794763951",
+    appId: "1:460794763951:web:148f342458cc116128525a",
+    measurementId: "G-KQ9BJYRNHJ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+    
+  </main>
+    
+    
+  </div>
+
+</body>
+</html>

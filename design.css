@@ -1,0 +1,255 @@
+  .event-title{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 0px;
+    text-align: center;
+  }
+    
+  .event1{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+        
+  }
+   
+  .feb{
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+    
+   .event2 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 71px;
+    padding-right: 71px;
+    background-color: rgb(0, 150, 150);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px; 
+    text-align: center;
+    cursor: pointer;
+  }
+   
+   .jul{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 15px;
+  } 
+   
+   .event3 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 113px;
+    padding-right: 113px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  } 
+    
+   .sep{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 15px;
+  } 
+    
+   .event4 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 101px;
+    padding-right: 101px;
+    background-color: rgb(0, 150, 150);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px; 
+    text-align: center;
+    cursor: pointer;
+  }
+    
+   .oct{
+    margin-left: 151px;
+    margin-right: 151px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 15px;
+  }   
+  
+    
+   .event5{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 52px;
+    padding-right: 52px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+   .octo{
+    margin-left: 148px;
+    margin-right: 148px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 15px;
+  }   
+  
+  .event6 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-bottom: 5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 64px;
+    padding-right: 64px;
+    background-color: rgb(0, 150, 150);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px; 
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .event7{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 76px;
+    padding-right: 76px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .event8 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(0, 150, 150);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px; 
+    text-align: center;
+    cursor: pointer;
+  }
+  
+    .calendar {
+      display: grid;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .calendar h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .calendar table {
+      border-collapse: collapse;
+      table-layout: fixed; /* Ensure even cell distribution */
+    }
+
+    .calendar th, .calendar td {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    .calendar th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+    .calendar td {
+      height: 20px;
+    }
+
+    .calendar td.today {
+      background-color: #e0e0e0;
+    }
+
+    .calendar .prev-month, .calendar .next-month {
+      color: #ccc;
+    }
+ 
+   body {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    } 
+    
+ 
+    
